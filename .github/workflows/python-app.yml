@@ -27,3 +27,8 @@ jobs:
       run: |
         echo "Building the application ..."
         python -m py_compile calculator.py
+
+    - name: Test the calculator application
+      run: |
+        echo "Testing the application ..."
+        python -m py_compile test_calculator.py
