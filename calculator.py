@@ -23,7 +23,7 @@ if __name__ == "__main__":
     num1 = float(input("Enter first number: "))
     num2 = float(input("Enter second number: "))
     
-    print("Operations: 1.Add 2.Subtract 3.Multiply 4.Divide")
+    print("Operationsss: 1.Add 2.Subtractt 3.Multiply 4.Divide")
     choice = input("Choose operation (1/2/3/4): ")
     
     if choice == '1':
