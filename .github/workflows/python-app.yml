@@ -22,9 +22,8 @@ jobs:
     - name: Install dependencies
       run: |
         python -m pip install --upgrade pip
-        pip install -r requirements.txt
 
     - name: Build the calculator application
       run: |
         echo "Building the application ..."
-        pyton -m py_compile calculator.py
+        python -m py_compile calculator.py
